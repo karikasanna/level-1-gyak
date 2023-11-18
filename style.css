@@ -14,6 +14,9 @@
 
 .main h1, .main h3{
     text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
 }
 
 .main h3{
@@ -26,6 +29,7 @@
 
 main h1{
     margin: 0;
+    padding: 0;
 }
 
 .section{
@@ -52,8 +56,11 @@ img{
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
     margin-block: 1rem;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.header h3{
+    font-size: 14px;
 }
 
 .primary,
@@ -61,8 +68,10 @@ img{
     text-decoration: none;
     border-radius: 1rem;
     margin: auto;
-    padding: 0.5rem;
+    padding-inline: 1.75rem;
+    padding-block: 0.5rem;
     border-style: solid;
+    font-size: 14px;
 }
 
 .primary{
@@ -74,4 +83,14 @@ img{
     color: white;
     border-style: solid;
     border-color: black;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1.5;
+    
+}
+
+h1{
+    font-size: 24px;
 }

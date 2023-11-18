@@ -94,3 +94,23 @@ p{
 h1{
     font-size: 24px;
 }
+
+.imgbox{
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem; 
+    background: 50% / cover no-repeat;
+}
+
+.imgbox h3{
+    color: white;
+    padding-top: 170px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    padding-left: 1rem
+}
+
+.lvl1{
+    background-image: url(lvl1.png);
+}
